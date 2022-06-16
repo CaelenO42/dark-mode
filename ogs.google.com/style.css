@@ -1,0 +1,23 @@
+.EHzcec, .NQV3m {
+  background: #121212;
+}
+
+.Rq5Gcb {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.tX9u1b:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.dGrefb {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.NQV3m {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+a:hover>.Rq5Gcb{
+  background-color: transparent;
+}

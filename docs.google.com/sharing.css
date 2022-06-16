@@ -1,0 +1,11 @@
+.GmCard {
+  background-color: #212121 !important;
+}
+
+.Title {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.mdc-label {
+  color: rgba(255, 255, 255, 0.6);
+}

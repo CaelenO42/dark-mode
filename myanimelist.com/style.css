@@ -1,0 +1,165 @@
+body.ownlist {
+  background-color: #0b0b0b;
+}
+
+.status-menu-container {
+  background-color: #202124;
+  border-bottom: 1px solid #202124;
+}
+
+.list-container {
+  background-color: #202124;
+  border: 1px solid #202124;
+}
+
+.list-unit .list-status-title,
+#footer-block,
+.list-unit .list-stats {
+  background-color: rgba(64, 101, 186, 0.6);
+}
+
+.list-unit .list-status-title .text,
+.list-unit .list-stats {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.list-unit .list-status-title .stats a {
+  color: rgba(255, 255, 255, 0.87);
+  transition: 0.25s color;
+}
+
+.list-unit .list-status-title .stats a:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.status-menu-container .status-menu .status-button.on {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.status-menu-container .status-menu .status-button {
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.25s color;
+}
+
+.status-menu-container .status-menu .status-button:hover {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.status-menu-container .status-menu .status-button:after {
+  background-color: rgba(64, 101, 186, 0.6);
+}
+
+.status-menu-container .search-container #search-button {
+  color: rgba(255, 255, 255, 0.6);
+  transition: 0.25s color;
+}
+
+.status-menu-container .search-container #search-button:hover,
+.td1 {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.list-table > tbody:nth-of-type(2n + 1) {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.list-table .list-table-header .header-title {
+  background-color: rgba(255, 255, 255, 0.01);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.01);
+  background: rgba(255, 255, 255, 0.01) url("/img/pc/ownlist/bar-table-header.png") no-repeat right 7px / 1px 22px;
+}
+
+.list-table {
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.list-table .list-table-header .header-title .link {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.list-table .list-table-header .header-title .link.sort {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.list-table .list-table-header .header-title .link.sort:hover {
+  color: #709cff;
+}
+
+.list-table .list-table-header .header-title.number,
+.list-table .list-table-header .header-title.tags {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+#copyright,
+#recaptcha-terms,
+#recaptcha-terms a {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.list-table .list-table-data .data,
+.list-table .more-info {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.01);
+}
+
+td.data.number,
+td.data.type,
+td.data.progress,
+.list-table .list-table-data .data.title .add-edit-more,
+.list-table .list-table-data a.edit-disabled {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.list-table .list-table-data .data.title .rewatching,
+.list-table .list-table-data .data.title .rereading,
+.list-table .list-table-data .data.title .content-status {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+a {
+  color: #709cff;
+}
+
+.icon-watch2 .malicon.malicon-movie-episode,
+.icon-watch2 .malicon.malicon-movie-pv,
+.icon-watch2 .malicon.malicon-streaming,
+.icon-watch-pv2 .malicon.malicon-movie-episode,
+.icon-watch-pv2 .malicon.malicon-movie-pv,
+.icon-watch-pv2 .malicon.malicon-streaming {
+  color: #709cff !important;
+}
+
+#advanced-options {
+  background-color: #202124;
+  border: 1px solid #202124;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+#advanced-options .advanced-options-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.87);
+}
+
+.list-table .list-table-data .data.image .image {
+  border: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.list-menu-float {
+  border: 1px solid #202124;
+}
+
+.list-menu-float .icon-menu {
+  background-color: #202124;
+}
+
+.list-menu-float .icon-menu svg.icon {
+  fill: rgba(255, 255, 255, 0.6);
+}
+
+.list-menu-float .icon-menu:not(.profile):hover,
+.list-menu-float .icon-menu.setting:hover .text .link-list-setting,
+.list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+  background-color: #334a7e;
+}
+
+.list-menu-float .icon-menu.setting:hover .text .link-style-setting {
+  border-top: 1px solid rgba(255, 255, 255, 0.6);
+}
